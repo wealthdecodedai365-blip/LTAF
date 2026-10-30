@@ -226,6 +226,12 @@ footer{border-top:1px solid var(--line);padding-block:1.6rem 2.6rem;font:400 .74
 .cvlink{position:absolute;left:3%;top:94.2%;width:42%;height:3.4%}
 .cvlink:focus-visible{outline:2px solid #F2B531;outline-offset:2px}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.dpdp{margin-top:2rem;border:1px solid #BFE3DC;border-left:5px solid var(--teal);border-radius:14px;background:#F3FAF8;padding:1.4rem 1.5rem}
+.dsub{color:var(--muted);margin-top:.4rem;max-width:46rem}
+.dgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem 1.6rem;margin-top:1.1rem}
+.dc h3{font-size:1.02rem;color:var(--text)} .dc p{font-size:.92rem;color:var(--muted);margin-top:.25rem;line-height:1.45}
+@media (max-width:920px){.dgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.dgrid{grid-template-columns:1fr}}
 </style>
 
 <header class="coverhead">
@@ -383,6 +389,12 @@ footer{border-top:1px solid var(--line);padding-block:1.6rem 2.6rem;font:400 .74
           <li>Will an automated, independent check meet dual-approval expectations in RBI's 2026 NBFC cybersecurity directions?</li>
           <li>What latency and cost per disbursement are acceptable at scale?</li></ul></div>
       </div>
+      <div class="dpdp">
+        <p class="kick">Data protection by design</p>
+        <p class="dsub">Aligned with India's Digital Personal Data Protection Act, 2023 and DPDP Rules, 2025. LTAF uses the data lenders already hold for disbursal, for a closely related purpose, with less of it.</p>
+        <div class="dgrid"><div class="dc"><h3>Lender stays the data fiduciary</h3><p>The Registry acts as its data processor under a contract covering purpose, security, breach notice, audit and deletion.</p></div><div class="dc"><h3>Consent notice</h3><p>Existing loan consent states that disbursement details are verified by an independent authorisation service. One line, no new step.</p></div><div class="dc"><h3>Minimum data</h3><p>The Registry holds hashes and tokens, not raw account numbers or borrower details.</p></div><div class="dc"><h3>No Aadhaar numbers</h3><p>eSign signatures are verified, but Aadhaar numbers are never stored.</p></div><div class="dc"><h3>Retention and use</h3><p>Kept only as long as RBI record rules require, then deleted. Never reused for marketing or scoring.</p></div><div class="dc"><h3>Hosted in India</h3><p>Registry data stays in India, in line with RBI expectations for payment-related data.</p></div></div>
+        <p class="lg">Indicative view, not legal advice. Confirm with data-protection counsel.</p>
+      </div>
     </div>
   </section>
 
@@ -403,6 +415,7 @@ footer{border-top:1px solid var(--line);padding-block:1.6rem 2.6rem;font:400 .74
         <li>Elets BFSI, citing The Economic Times, 29 Oct 2026. <a href="https://bfsi.eletsonline.com/small-nbfcs-lose-300-crore-ai-powered-cyberattacks-cert-in-payment-api-advisory/" target="_blank" rel="noopener">bfsi.eletsonline.com</a></li>
         <li>Siasat, “Hyderabad NBFC loses Rs 3.3 crore in 87-minute cyberattack”, 23 Oct 2026. <a href="https://www.siasat.com/hyderabad-nbfc-loses-rs-3-3-crore-in-87-minute-cyberattack-3562826/" target="_blank" rel="noopener">siasat.com</a></li>
         <li>Ministry of Cyber Affairs, NBFC server malware case, 27 Oct 2026. <a href="https://ministryofcyberaffairs.com/news/malware-attack-on-nbfc-server-drains-3-93-crore-in-149-transfers-delhi-police-trace-crypto-trail-0ac92540-8a9b-4bcf-af4a-536eec05ef38" target="_blank" rel="noopener">ministryofcyberaffairs.com</a></li>
+        <li>Digital Personal Data Protection Act, 2023 and DPDP Rules, 2025, notified November 2025 with a phased rollout over 18 months.</li>
       </ol>
       <div class="author">
         <p class="kick">About the author</p>
